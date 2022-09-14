@@ -1,7 +1,7 @@
 from email.message import EmailMessage
 import smtplib, ssl
 import email, imaplib
-import time
+
 # Standard details, emails, servers, port number
 sender_email = "myEmail@gmail.com"
 target_emails = ["emailToForwardTo@gmail.com"]
